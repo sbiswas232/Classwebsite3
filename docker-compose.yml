@@ -1,0 +1,6 @@
+services:
+  web:
+    image: sbiswas232/git-compose-webapp3
+    ports:
+      - "80:80"
+    container_name: webapp3c
